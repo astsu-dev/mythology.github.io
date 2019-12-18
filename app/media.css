@@ -1,0 +1,76 @@
+/* .header {
+    overflow: hidden;
+} */
+
+.header [type="checkbox"] {
+    display: none;
+}
+
+.header label.toggle-submenu {
+    display: none;
+}
+
+.header label.toggle-menu {
+    display: none;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+}
+
+.header label.toggle-menu span {
+    padding-left: 20px;
+}
+
+/* .header label.toggle-submenu {
+    display: block;
+} */
+
+/* .header ul li ul {
+    display: block;
+    position: relative;
+    border: 1px solid black
+} */
+
+
+@media all and (max-width: 801px) {
+    .header ul {
+        display: none;
+        /* transition: 1s all ease; */
+    }
+
+    .header label.toggle-menu {
+        display: block;
+    }
+
+    input.toggle-menu:checked + label.toggle-menu,
+    /* input.toggle-submenu:checked + label.toggle-submenu { */
+    input.toggle-menu:checked ~ ul > li > a{
+        background: #533936;
+        color: #deb36a;
+    }
+
+    input.toggle-menu:checked ~ ul,
+    input.toggle-menu:checked ~ ul > li > ul {
+        display: block;
+        position: relative;
+    }
+
+    /* input.toggle-menu:checked ~ ul > li {
+        
+    } */
+
+    /* .header li label.toggle-submenu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0; 
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    } */
+    /* input.toggle-submenu:checked ~ a {
+        
+    } */
+}

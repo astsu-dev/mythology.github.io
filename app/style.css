@@ -1,0 +1,659 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url("img/11_.jpg") no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed; 
+	font-family: 'Cuprum';
+	display: flex;
+	justify-content: center;
+	/* overflow-x: hidden; */
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	padding: 20px;
+	/* margin: auto;
+	position: absolute;
+	right: 0;
+	left: 0; */
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	/* display: flex; */
+	width: 100%;
+	/* justify-content: center; */
+	background-color: #deb36a;
+	/* width: 60%; */
+	/* position: relative; */
+}
+
+.header *{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header ul {
+	border: 1px solid #d1a75f;
+	list-style: none;
+}
+
+.header > ul { 
+	display: flex;
+	justify-content: center;
+}
+
+/* .header > ul {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+} */
+
+.header li {
+	width: 100%;
+	border: 1px solid #d1a75f;
+}
+
+.header ul li a {
+	display: block;
+	background: #deb36a;
+	/* width: 100%; */
+	text-align: center;
+	padding: 10px 0;
+	/* padding: 10px 65px; */
+	/* padding-right: 50%; */
+	/* padding: 10px 64.7px; */
+	/* padding-right: 64.7px; */
+	/* padding-left: 64.7px; */ 
+	/* border-right: 1px solid #bf9553; */
+	font-size: 14px;
+	color: #533936;
+	transition: all 0.3s ease;
+}
+
+/* .header ul li{
+	position: relative;
+
+} */
+
+.header li a:hover {
+	background: #533936;
+	box-shadow: 1px 5px 10px -5px black;
+	color: #deb36a;
+	/* transition: all 0.3s ease; */
+}
+
+.info {
+	/* margin: auto;
+	display: block;
+	position: absolute; */
+	background: #f2e4b8;
+	/* width: 60%; */
+	/* left: 0;
+	right: 0; */
+	padding: 50px;
+}
+
+
+.info a {
+	color: #000;
+	transition: all 0.1s ease;
+}
+
+.info a:hover {
+	color: #d1a75f;
+}
+
+.info > img {
+	float: left;
+	margin: 10px;
+}
+
+
+li {
+	z-index: 100;
+}
+
+.header > ul > li > ul {
+	position: absolute;
+	/* min-width: 188px; */
+	display: none;
+}
+
+/* /* .header li > ul li {
+	border: 1px solid #533936;
+} */
+
+.header li > ul li a{
+	padding: 10px;
+	text-transform: none;
+} 
+
+.header li:hover > ul {
+	display: block;
+}
+
+h2, h3 {
+	margin-bottom: 30px;
+}
+
+.poseidon {
+	float: left;
+}
+
+.img1 {
+	float: left;
+	width: 100.5px;
+	height: 160px;
+	margin: 5px;
+}
+
+.bogs,.t {
+	display: inline-block;
+	/* list-style: circle; */
+	/* width: 350px; */
+}
+
+.bogs li,
+.t li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+/* .t {
+	position: relative;
+	top: -402px;
+} */
+
+.bogs li img {
+	float: left;
+	width: 105px;
+	height: 75px;
+	margin: 5px;
+}
+
+.bogs li .antiq203 {
+	width: 37.5px;
+	height: 68.75px;
+}
+
+.bogs li .antiq317 {
+	width: 75px;
+	height: 125px;
+}
+
+.info .aid img {
+	float: left;
+	margin: 10px;
+}
+
+.bogs li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.bogs li a:hover {
+	color: #d1a75f;
+}
+
+.apolon img {
+	float: left;
+	margin: 10px;
+}
+.ares img {
+	float:left;
+	margin: 10px;
+
+}
+
+.germes img {
+	float: left;
+	margin: 10px;
+}
+
+.dionis img {
+	float:left;
+	margin: 10px;
+}
+
+.zevs img {
+	float: left;
+	margin: 10px;
+}
+
+.mars img {
+	float: left;
+	margin: 10px;
+}
+
+.merk img {
+	float: left;
+	margin: 10px;
+}
+
+.neptun img {
+	float:left;
+	margin: 10px;
+}
+
+.pan img {
+	float:left;
+	margin: 10px;
+}
+
+.poseidon img {
+	float: left;
+	margin:5px;
+	width: 75px;
+	height: 112.5px;
+}
+
+.yupiter img {
+	float:left;
+	margin: 10px;
+}
+.yanus img {
+	float: left ;
+	margin: 10px;
+}
+
+.t li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.t li a:hover {
+	color: #d1a75f;
+}
+
+.atlant img {
+	float:left;
+	margin: 10px;
+}
+
+.kronos img {
+	float: left;
+	margin: 10px;
+}
+
+.prometei img {
+	float: left;
+	margin: 10px;
+}
+
+.uran img {
+	float: left;
+	margin: 10px;
+}
+
+.boguni_ant li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.boguni_ant {
+	list-style: none;
+}
+
+.boguni_ant li a:hover {
+	color: #d1a75f;
+}
+
+.avrora img {
+	float:left;
+	margin: 10px;
+}
+
+.boguni_ant li {
+	margin-bottom: 10px;
+}
+
+.mif_ist_ant {
+	list-style: none;
+}
+
+.mif_ist_ant li {
+	margin-bottom: 10px;
+}
+
+.mif_ist_ant li a {
+	color: #000000;
+}
+
+.mif_ist_ant li a:hover {
+	color: #d1a75f;
+}
+
+.amazonku img {
+	float: left;
+	margin: 10px;
+}
+
+.ul1 {
+	display: inline-block;
+	list-style: none;
+
+}
+
+.ul1 li {
+	margin-bottom: 5px;
+}
+
+.ul1 li a {
+	color: #000000;
+}
+
+.ul1 li a:hover {
+	color: #d1a75f;
+}
+
+.caption3 {
+	display: block;
+	font-size: 25px;
+}
+
+.caption4 {
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.caption5 {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.egypt img {
+	float:left;
+	margin: 10px;
+}
+
+.bogs_egypt {
+	list-style: none;
+}
+
+.bogs_egypt li a{
+	color: #000000;
+}
+
+.bogs_egypt li {
+	margin-bottom: 10px;
+}
+
+.bogs_egypt li a:hover {
+	color: #d1a75f;
+}
+
+.amon img {
+	float: left;
+	margin: 10px;
+}
+
+.boguni_egypt {
+	list-style: none;
+}
+
+.boguni_egypt li a{
+	color: #000000;
+}
+
+.boguni_egypt li{
+	margin-bottom: 10px;
+}
+
+.boguni_egypt li a:hover {
+	color: #d1a75f;
+}
+
+.astarta img {
+	float:left;
+	margin: 10px;
+}
+
+.d_and_d_egypt {
+	list-style: none;
+}
+.d_and_d_egypt li {
+	margin-bottom: 10px;
+}
+
+.d_and_d_egypt li a{
+	color: #000000;
+}
+
+.d_and_d_egypt li a:hover {
+	color: #d1a75f;
+}
+
+.azazel img {
+	float: left;
+	margin: 10px;
+}
+
+.india img {
+	float:left;
+	margin:10px;
+}
+
+.india2 {
+	font-style: italic;
+}
+
+.bogs_india li a{
+	color: #000000;
+}
+
+.bogs_india li {
+	margin-bottom: 10px;
+}
+
+.bogs_india {
+	list-style: none;
+}
+
+.bogs_india li a:hover {
+	color: #d1a75f;
+}
+
+.agni img {
+	float: left;
+	margin: 10px;
+}
+
+.boguni_india li {
+	margin-bottom: 10px;
+}
+
+.boguni_india li a{
+	color: #000000;
+}
+
+.boguni_india li a:hover {
+	color: #d1a75f;
+}
+
+.devi img {
+	float: left;
+	margin: 10px;
+}
+
+.mif_ist_india {
+	list-style: none;
+}
+
+.mif_ist_india li a{
+	color: #000000;
+}
+
+.mif_ist_india li {
+	margin-bottom: 10px;
+}
+
+.apsaru img {
+	float: left;
+	margin: 10px;
+}
+
+.kelt img {
+	float: left;
+	margin: 10px;
+}
+
+.bogs_kelt li a{
+	color: #000000;
+}
+
+.bogs_kelt li {
+	margin-bottom: 10px;
+}
+
+.bogs_kelt {
+	list-style: none;
+}
+
+.aongus img {
+	float: left;
+	margin: 10px;
+}
+
+.boguni_kelt {
+	list-style: none;
+}
+
+.boguni_kelt li {
+	margin-bottom: 10px;
+}
+
+.boguni_kelt li a {
+	color: #000000;
+}
+
+.badb img {
+	float: left;
+	margin: 10px;
+}
+
+.heroi_kelt  {
+	list-style: none;
+}
+
+.heroi_kelt li {
+	margin-bottom: 10px;
+}
+
+.heroi_kelt li a{
+	color: #000000;
+}
+
+.konhobar img {
+	float: left;
+	margin: 10px;
+}
+
+.skandunavia img {
+	float: left;
+	margin: 10px;
+}
+
+.skandunavia_bogs {
+	list-style: none;
+}
+
+.skandunavia_bogs li {
+	margin-bottom: 10px;
+}
+
+.skandunavia_bogs li a{
+	color: #000000;
+}
+
+.skandunavia_bogs li a:hover {
+	color: #d1a75f;
+}
+
+.asu img {
+	float: left;
+	margin: 10px;
+}
+
+.boguni_skandunavia {
+	list-style: none;
+}
+
+.boguni_skandunavia li {
+	margin-bottom: 10px;
+}
+
+.boguni_skandunavia li a {
+	color: #000000;
+}
+
+/* .boguni_skandunavia li a:hover {
+	color: ;
+} */
+
+.idynn img {
+	float: left;
+	margin: 10px;
+}
+
+.img172 {
+	float: left;
+	margin: 10px;
+}
+
+.img232 {
+	float: left;
+	margin: 10px;
+}
+
+.img242 {
+	float: left;
+	margin: 10px;
+}
+
+.mif_ist_skandunavia {
+	list-style: none;
+}
+
+.mif_ist_skandunavia li {
+	margin-bottom: 10px;
+}
+
+.mif_ist_skandunavia li a{
+	color: #000000;
+}
+
+.mif_ist_skandunavia li a:hover {
+	color: #d1a75f;
+}
+
+.alvu img {
+	float: left;
+	margin: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.header > ul{
+		flex-direction: column;
+		padding: 0;
+	}
+}
+
+
+
+
