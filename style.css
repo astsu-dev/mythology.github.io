@@ -4,7 +4,7 @@
 }
 
 body {
-	background: url("img/11_.jpg") no-repeat;
+	background: url("img/11_.jpg");
 	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed; 
@@ -21,6 +21,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 70%;
+	min-width: 250px;
 	padding: 20px;
 	/* margin: auto;
 	position: absolute;
