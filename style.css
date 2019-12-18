@@ -14,15 +14,21 @@ body {
 	/* overflow-x: hidden; */
 }
 
+.info img {
+	max-width: 250px;
+}
+
 .main{
 	display: flex;
 	flex-direction: column;
 	/* align-items: flex-start; */
 	justify-content: center;
 	align-items: center;
-	width: 70%;
-	min-width: 250px;
-	padding: 20px;
+	width: 60%;
+	min-width: 300px;
+	/* max-width: 1000px; */
+	padding: 20px 0;
+	/* overflow: hidden; */
 	/* margin: auto;
 	position: absolute;
 	right: 0;
@@ -106,6 +112,7 @@ a {
 	/* left: 0;
 	right: 0; */
 	padding: 50px;
+	height: 100%;
 }
 
 
@@ -147,8 +154,8 @@ li {
 	display: block;
 }
 
-h2, h3 {
-	margin-bottom: 30px;
+h1, h2, h3 {
+	margin: 15px 0;
 }
 
 .poseidon {
