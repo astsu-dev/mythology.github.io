@@ -118,6 +118,7 @@ a {
 
 .info a {
 	color: #000;
+	font-weight: bold;
 	transition: all 0.1s ease;
 }
 
@@ -125,9 +126,13 @@ a {
 	color: #d1a75f;
 }
 
-.info > img {
+.info img {
 	float: left;
 	margin: 10px;
+}
+
+.info ul {
+	list-style: none;
 }
 
 
@@ -156,6 +161,10 @@ li {
 
 h1, h2, h3 {
 	margin: 15px 0;
+}
+
+.info p {
+	margin: 10px 0;
 }
 
 .poseidon {
@@ -613,25 +622,6 @@ h1, h2, h3 {
 	color: ;
 } */
 
-.idynn img {
-	float: left;
-	margin: 10px;
-}
-
-.img172 {
-	float: left;
-	margin: 10px;
-}
-
-.img232 {
-	float: left;
-	margin: 10px;
-}
-
-.img242 {
-	float: left;
-	margin: 10px;
-}
 
 .mif_ist_skandunavia {
 	list-style: none;
@@ -649,18 +639,14 @@ h1, h2, h3 {
 	color: #d1a75f;
 }
 
-.alvu img {
-	float: left;
-	margin: 10px;
-}
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 	.header > ul{
 		flex-direction: column;
 		padding: 0;
 	}
-}
+} */
 
 
 

@@ -34,7 +34,7 @@
 } */
 
 
-@media all and (max-width: 801px) {
+@media all and (max-width: 1024px) { /*801px*/
     .header ul {
         display: none;
         /* transition: 1s all ease; */
