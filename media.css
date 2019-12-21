@@ -1,7 +1,3 @@
-/* .header {
-    overflow: hidden;
-} */
-
 .header [type="checkbox"] {
     display: none;
 }
@@ -22,16 +18,6 @@
 .header label.toggle-menu span {
     padding-left: 20px;
 }
-
-/* .header label.toggle-submenu {
-    display: block;
-} */
-
-/* .header ul li ul {
-    display: block;
-    position: relative;
-    border: 1px solid black
-} */
 
 
 @media all and (max-width: 1024px) { /*801px*/
