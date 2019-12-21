@@ -1,1 +1,1 @@
-"# mythology.github.io" 
+# mythology.github.io
